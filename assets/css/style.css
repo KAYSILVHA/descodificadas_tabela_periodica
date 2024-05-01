@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000;
+    background-image: url("https://marketplace.canva.com/EAFCO6pfthY/1/0/1600w/canva-blue-green-watercolor-linktree-background-F2CyNS5sQdM.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: orange;
+}
+
+table {
+    margin-bottom: 30px;
+    border-collapse: collapse;
+}
+
+td {
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    min-width: 85px;
+    height: 80px;
+    border: none;
+}
+
+.empty {
+    border: none;
+}
+
+.item {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.dark-blue {
+    background-color: #3B56A6;
+}
+
+.purple {
+    background-color: #7B5BA7;
+}
+
+.pink {
+    background-color: #F27EB2;
+}
+
+.orange {
+    background-color: #F58132;
+}
+
+.red {
+    background-color: #EE3432;
+}
+
+.dark-red {
+    background-color: #A62439;
+}
+
+.light-blue {
+    background-color: #6BC6EF;
+}
+
+.green {
+    background-color: #38B66B;
+}
+
+.yellow {
+    background-color: #D4BA0E;
+}
+
+.item:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.item p {
+    font-size: 12px;
+}
